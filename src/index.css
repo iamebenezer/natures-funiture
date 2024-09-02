@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: head;
+  src: url(/src/assets/fonts/Macromedia.ttf);
+}
+@font-face {
+  font-family: btn-text;
+  src: url(/src/assets/fonts/SERIN___.ttf);
+}
+@font-face {
+  font-family: para;
+  src: url(/src/assets/fonts/Agatho_Regular.otf);
+}
+@font-face {
+  font-family: texts;
+  src: url(/src/assets/fonts/Timeless.ttf);
+}
+.font-btn-text{
+  letter-spacing: 0.1em;
+}
+.floating{
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+}
+.bg-img{
+  background-image: url(/src/assets/images/hero-bg.jpg);
+  background-size: cover;
+}
