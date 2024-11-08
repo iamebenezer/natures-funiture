@@ -158,9 +158,7 @@ function App() {
                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
                 reprehenderit similique quas, natus nemo accusamus eum rem numquam aperiam aspernatur?</p>
             <div className='mt-6 space-x-3'>
-              <a className="font-btn-text inline-flex items-center md:text-xl bg-[#2b1100] my-3 text-white px-6 py-3 rounded-xl">Reviews 
-              <FaUsers className='ml-2' />
-              </a>
+            
               <a  className="font-btn-text inline-flex items-center md:text-xl bg-[#fff] my-3 text-[#2b1100] px-6 py-3 rounded-xl">Contact Us
               <FaPhoneAlt className='ml-2'  />
               </a>
@@ -216,7 +214,13 @@ function App() {
        
        <div className="grid grid-cols-1 gap-x-12 md:grid-cols-2 items-center py-10">
         <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15857.994507269892!2d7.5238636!3d6.45833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a5b32dafc413%3A0xbc1e1921c4a3ffd!2sNatureWorld%20Interior%20and%20Furniture!5e0!3m2!1sen!2sng!4v1731105710093!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+        <Iframe url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15857.994507269892!2d7.5238636!3d6.45833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a5b32dafc413%3A0xbc1e1921c4a3ffd!2sNatureWorld%20Interior%20and%20Furniture!5e0!3m2!1sen!2sng!4v1731107108844!5m2!1sen!2sng"
+        width=""
+        height=""
+        id=""
+        className="w-full h-96 flex justify-center items-center"
+       />
      
      
         </div>
@@ -226,7 +230,7 @@ function App() {
 
             <li className=' font-texts'><FaLocationPin className='inline-flex' size={20}/> 4th Avenue Funiture Plaza SO9</li>
             <li  className=' font-texts'><FaGlobe className='inline-flex' size={20}/> www.naturefunitures.com</li>
-            <li  className=' font-texts'><FaPhone className='inline-flex' size={20}/>  +234 09134537728</li>
+            <li  className=' font-texts'><FaPhone className='inline-flex' size={20}/>  +234 9134537728</li>
             <li  className=' font-texts'><IoMdMail className='inline-flex' size={20}/> naturefuniture@gmail.com</li>
           </ul>
         </div>
@@ -244,7 +248,7 @@ function App() {
             <h3 className='font-head md:text-2xl'>Nature Funiture's</h3>
             <p className='font-para md:text-xl'>Nature World of Furniture and interiors.</p>
             </div>
-            <div className=' hidden md:flex'>
+            <div className='hidden md:flex '>
                 <span className='font-head underline underline-offset-4 md:text-lg'>Links</span>
                 <ul>
                   <li className='font-para text-xl'> <a href="">Home</a></li>
