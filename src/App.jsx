@@ -90,10 +90,10 @@ function App() {
               {/* Name and Price */}
               <div className="px-6 h-fit flex justify-between items-center">
                 <div className="">
-                  <span className='font-btn-texts md:text-xl'>Chair</span>
+                  <span className='font-btn-texts md:text-xl'>High Quality Tv stand and center table</span>
                 </div>
                 <div>
-                  <span className='font-btn-text md:text-xl'>#35,000</span>
+                  <span className='font-btn-text md:text-xl'>#600,000</span>
                 </div>
               </div>
               <a href="" className=' font-btn-text bg-[#2b1100] my-3 text-white px-6 py-1 rounded-md'>Order Now</a>
@@ -105,10 +105,10 @@ function App() {
               {/* Name and Price */}
               <div className="px-6  flex justify-between items-center">
                 <div className="">
-                  <span className='font-btn-texts md:text-xl'>Chair</span>
+                  <span className='font-btn-texts md:text-xl'>Royal Gold Mirror</span>
                 </div>
                 <div>
-                  <span className='font-btn-text md:text-xl'>#35,000</span>
+                  <span className='font-btn-text md:text-xl'>#50,000</span>
                 </div>
               </div>
               <a href="" className=' font-btn-text bg-[#2b1100] my-3 text-white px-6 py-1 rounded-md'>Order Now</a>
@@ -120,10 +120,10 @@ function App() {
               {/* Name and Price */}
               <div className="px-6  flex justify-between items-center">
                 <div className="">
-                  <span className='font-btn-texts md:text-xl'>Chair</span>
+                  <span className='font-btn-texts md:text-xl'>Luxurious dining</span>
                 </div>
                 <div>
-                  <span className='font-btn-text md:text-xl'>#35,000</span>
+                  <span className='font-btn-text md:text-xl'>#700k</span>
                 </div>
               </div>
               <a href="" className=' font-btn-text bg-[#2b1100] my-3 text-white px-6 py-1 rounded-md'>Order Now</a>
@@ -135,10 +135,10 @@ function App() {
               {/* Name and Price */}
               <div className="px-6  flex justify-between items-center">
                 <div className="">
-                  <span className='font-btn-texts md:text-xl'>Chair</span>
+                  <span className='font-btn-texts md:text-xl'>Artificial Flowers</span>
                 </div>
                 <div>
-                  <span className='font-btn-text md:text-xl'>#35,000</span>
+                  <span className='font-btn-text md:text-xl'>#20,000</span>
                 </div>
               </div>
               <a href="" className=' font-btn-text bg-[#2b1100] my-3 text-white px-6 py-1 rounded-md'>Order Now</a>
@@ -153,10 +153,9 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 py-12">
           <div className=''>
               <h1 className=' font-head text-4xl md:text-5xl my-3'>About Nature's Furntinure</h1>
-              <p className='font-texts'>Lorem ipsum dolor sit, amet consectetur
-               adipisicing elit. Inventore similique eveniet minus.
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-                reprehenderit similique quas, natus nemo accusamus eum rem numquam aperiam aspernatur?</p>
+              <p className='font-texts'>
+              Welcome to NatureWorld Furniture and Interiors, your premier destination 
+              for luxurious furniture and interior design. Our expert team crafts bespoke spaces, elevating your home into a serene sanctuary that reflects your unique style.</p>
             <div className='mt-6 space-x-3'>
             
               <a  className="font-btn-text inline-flex items-center md:text-xl bg-[#fff] my-3 text-[#2b1100] px-6 py-3 rounded-xl">Contact Us
